@@ -1,0 +1,11 @@
+#include<stdio.h>
+
+int main(){
+	int n, fact=1;
+	printf("No. : ");
+	scanf("%d", &n);
+	for(int i=n; i>0; i--){
+		fact=fact*i;
+	}
+	printf("fact = %d", fact);
+}
